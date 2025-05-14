@@ -7,7 +7,7 @@ This project implements two complementary deep learning models for time series a
 Regression Model: Predicts continuous values for the next 10 time steps (minutes)
 Classification Model: Categorizes future movement direction into three classes (up, same, down)
 
-Both models leverage bidirectional LSTM architectures to capture temporal patterns from historical time series data, providing both precise numerical forecasts and actionable directional insights.
+Models leverage LSTM and bidirectional LSTM architectures to capture temporal patterns from historical time series data, providing both precise numerical forecasts and actionable directional insights.
 Features
 Bidirectional LSTM networks for capturing patterns in both forward and backward directions
 Dual prediction approach (regression + classification)
