@@ -21,5 +21,8 @@ The regression model is evaluated using Mean Squared Error (MSE) and Mean Absolu
 ## Data Preparation
 Data is extracted from Polygon.io using the api for past 180 days at minute level interval for Nvidia stock. Time series data is preprocessed using sliding windows to create input-output pairs for training. For the classification model, continuous targets are converted to categorical labels (up, same, down) based on directional movement.
 
+## Medium Article
+[Article](https://medium.com/@vishvesh.dumbre/boundaries-of-deep-learning-in-finance-my-journey-with-bidirectional-lstms-for-nvidia-stock-1bfdb7f1bb69)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
